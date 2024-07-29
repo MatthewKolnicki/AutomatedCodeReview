@@ -11,7 +11,6 @@ The Automated Code Review Tool is designed to help developers maintain code qual
 - **Integration with Code Repositories**: Seamlessly integrate with popular code repositories.
 
 #### AWS Integration
-- **AWS CodeCommit**: Version control for storing code repositories.
 - **AWS Lambda**: Execute code review scripts and generate reports.
 - **Amazon SNS**: Send notifications and alerts based on code review results.
 - **AWS CloudWatch**: Monitor tool performance and log errors.
@@ -27,7 +26,6 @@ The Automated Code Review Tool is designed to help developers maintain code qual
     npm install
     ```
 3. Set up AWS services and configure environment variables:
-    - CodeCommit repository for code storage.
     - SNS topic for notifications.
     - Lambda functions for executing code reviews.
 4. Run the application:
